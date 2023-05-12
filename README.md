@@ -1,1 +1,24 @@
-# Firmware-Update-Install-Scripts
+# Gamebox Product Firmware Update Guide
+
+_Version 0.1_ _⃝_ _12 May 2023_
+
+# Required Materials
+
+## Software
+
+- Computer with Windows 10/11 installed
+- GameboxFlashingToolPackage.zip
+  - **RUN ALL INCLUDED .bat FILES AS ADMINISTRATOR OR ELSE THEY WILL FAIL!**
+- Xilinx ISE Labtools
+  - Installer download link file found in "STEP 2" folder in GameboxFlashingToolPackage.zip
+  - AMD/Xilinx Account creation required to start downloading
+- Corresponding FWUPD\_\*\*\*.mcs firmware file for your product where \*\*\* is the product and firmware version
+  - Click here for the firmware update repo on GitHub
+
+## Hardware
+
+- Xilinx Platform Cable programmer
+  - Can be found on Aliexpress for ~$20 or on Amazon for ~$40
+    - [Aliexpress listing click here](https://www.aliexpress.us/item/2251832624576150.html?spm=a2g0o.productlist.main.1.d899ecafBL10Fz&algo_pvid=d810e90c-8c8d-4366-92da-8acfcb761078&algo_exp_id=d810e90c-8c8d-4366-92da-8acfcb761078-0&pdp_npi=3%40dis%21USD%2134.57%2123.51%21%21%21%21%21%402102111816839237601968764d07ee%2164548542145%21sea%21US%21168717347&curPageLogUid=3vz3E5S1Mryh)
+    - [Amazon listings click here](https://www.amazon.com/s?k=xilinx+platform+cable&sprefix=xilinx+pla%2Caps%2C120&ref=nb_sb_ss_ts-doa-p_1_10)
+  - This programmer can be used to update firmware on all Gamebox FPGA based products
