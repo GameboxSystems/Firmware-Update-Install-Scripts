@@ -11,7 +11,7 @@ _Version 0.1_  _⃝_  _12 May 2023_
   - Installer download link file found in "STEP 2" folder in GameboxFlashingToolPackage.zip
   - AMD/Xilinx Account creation required to start downloading
 - Corresponding FWUPD\_\*\*\*.mcs firmware file for your product where \*\*\* is the product and firmware version
-  - Click here for the firmware update repo on GitHub (To link)
+  - [Click here for the FPGA firmware update repo on GitHub](https://github.com/GameboxSystems/Gamebox-Product-Firmware-Updates)
 
 ## Hardware
 
