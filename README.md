@@ -1,19 +1,17 @@
 # Gamebox Product Firmware Update Guide
 
-_Version 0.1_ _⃝_ _12 May 2023_
+_Version 0.1_  _⃝_  _12 May 2023_
 
 # Required Materials
 
 ## Software
 
 - Computer with Windows 10/11 installed
-- GameboxFlashingToolPackage.zip
-  - **RUN ALL INCLUDED .bat FILES AS ADMINISTRATOR OR ELSE THEY WILL FAIL!**
 - Xilinx ISE Labtools
   - Installer download link file found in "STEP 2" folder in GameboxFlashingToolPackage.zip
   - AMD/Xilinx Account creation required to start downloading
 - Corresponding FWUPD\_\*\*\*.mcs firmware file for your product where \*\*\* is the product and firmware version
-  - Click here for the firmware update repo on GitHub
+  - Click here for the firmware update repo on GitHub (To link)
 
 ## Hardware
 
