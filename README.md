@@ -1,6 +1,6 @@
 # Gamebox Product Firmware Update Guide
 
-_Version 0.1_  _⃝_  _12 May 2023_
+_Version 0.2_  _⃝_  _16 May 2023_
 
 # Required Materials
 
@@ -15,8 +15,23 @@ _Version 0.1_  _⃝_  _12 May 2023_
 
 ## Hardware
 
-- Xilinx Platform Cable programmer
+> Xilinx Platform Cable programmer
   - Can be found on Aliexpress for ~$20 or on Amazon for ~$40
     - [Aliexpress listing click here](https://www.aliexpress.us/item/2251832624576150.html?spm=a2g0o.productlist.main.1.d899ecafBL10Fz&algo_pvid=d810e90c-8c8d-4366-92da-8acfcb761078&algo_exp_id=d810e90c-8c8d-4366-92da-8acfcb761078-0&pdp_npi=3%40dis%21USD%2134.57%2123.51%21%21%21%21%21%402102111816839237601968764d07ee%2164548542145%21sea%21US%21168717347&curPageLogUid=3vz3E5S1Mryh)
     - [Amazon listings click here](https://www.amazon.com/s?k=xilinx+platform+cable&sprefix=xilinx+pla%2Caps%2C120&ref=nb_sb_ss_ts-doa-p_1_10)
   - This programmer can be used to update firmware on all Gamebox FPGA based products
+
+**OR**
+
+> Raspberry Pi Pico (w and non-w fine)
+  - Using a collection of open source tools, a Pi Pico can be used with Xilinx ISE tools to program your Gamebox Product.
+  - **PLEASE NOTE**: this option is requires more work to get setup while the trade off is availability and price. The steps aren't particularly diffucult if you have some experience with computers. If you prefer a much more "plug 'n play" update experience or aren't very familiar with driver installation and general GUI software configuring, we recommend use the Xilinx Platform Cable method instead as that is mostly scripted.
+
+## Notes
+
+- After Step 2, the process splits depending on what flashing hardware is chosen. Installs are split into 3a and 3b depending on the programmer chosen for the firmware upgrade.
+
+## Changelog
+
+- v0.2 - Pi Pico XVC support added with install guide 
+- v0.1 - Inital release with Xilinx platform cable support
