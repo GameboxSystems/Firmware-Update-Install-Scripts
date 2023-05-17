@@ -1,6 +1,6 @@
 # Gamebox Product Firmware Update Guide
 
-_Version 0.2_  _⃝_  _16 May 2023_
+_Version 0.3_ 000 _17 May 2023_
 
 # Required Materials
 
