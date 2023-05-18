@@ -22,17 +22,17 @@ if not defined latestFile (
 )
 
 
-echo setMode -bs > %impactFile%
-echo setMode -bs >> %impactFile%
-echo setMode -bs >> %impactFile%
-echo setMode -bs >> %impactFile%
-echo setCable -port auto >> %impactFile%
-echo Identify -inferir >> %impactFile%
-echo identifyMPM >> %impactFile%
-echo attachflash -position 1 -spi "W25Q64BV" >> %impactFile%
-echo assignfiletoattachedflash -position 1 -file "./%latestFile%" >> %impactFile%
-echo Program -p 1 -dataWidth 1 -spionly -e -v -loadfpga >> %impactFile%
-echo exit >> %impactFile%
+echo setMode -bs> %impactFile%
+echo setMode -bs>> %impactFile%
+echo setMode -bs>> %impactFile%
+echo setMode -bs>> %impactFile%
+echo setCable -port auto>> %impactFile%
+echo Identify -inferir>> %impactFile%
+echo identifyMPM>> %impactFile%
+echo attachflash -position 1 -spi "W25Q64BV">> %impactFile%
+echo assignfiletoattachedflash -position 1 -file "./%latestFile%">> %impactFile%
+echo Program -p 1 -dataWidth 1 -spionly -e -v -loadfpga>> %impactFile%
+echo exit>> %impactFile%
 
 
 
