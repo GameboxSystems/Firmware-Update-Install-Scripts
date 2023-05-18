@@ -11,7 +11,7 @@ _Version 0.3_ ---- _17 May 2023_
   - Installer download link file found in "STEP 2" folder in this repo
   - AMD/Xilinx Account creation required to start downloading
 - Corresponding FWUPD\_\*\*\*.mcs firmware file for your product where \*\*\* is the product and firmware version
-  - RENAME FIRMWARE FILE TO "FWUPD.mcs" (no quotes) AND COPY TO C:\Xilinx\14.7\LabTools\LabTools\bin\nt64\ if using the FlashUpdate.bat
+  - **RENAME FIRMWARE FILE TO "FWUPD.mcs" (no quotes) AND COPY TO THE "STEP 5 - Flash Firmware Update" FOLDER (if using the FlashUpdate.bat instead of iMPACT)**
   - [Click here for the FPGA firmware update repo on GitHub](https://github.com/GameboxSystems/Gamebox-Product-Firmware-Updates)
 
 ## Hardware
