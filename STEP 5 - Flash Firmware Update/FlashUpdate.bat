@@ -17,6 +17,7 @@ for /f "delims=" %%a in ('dir /b /a-d /o-d "%folder%\*.mcs" 2^>nul') do (
 )
 if not defined latestFile (
     echo No .mcs files found in the directory.
+	pause
     exit /b
 )
 
