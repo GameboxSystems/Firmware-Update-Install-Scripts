@@ -11,7 +11,7 @@ _Version 0.3_ ---- _17 May 2023_
   - Installer download link file found in "STEP 2" folder in this repo
   - AMD/Xilinx Account creation required to start downloading
 - Corresponding FWUPD\_\*\*\*.mcs firmware file for your product where \*\*\* is the product and firmware version
-  - **RENAME FIRMWARE FILE TO "FWUPD.mcs" (no quotes) AND COPY TO THE "STEP 5 - Flash Firmware Update" FOLDER (if using the FlashUpdate.bat instead of iMPACT)**
+  - Place any .mcs update from our firmware updates repo file into the STEP 5 folder. No need to rename, the batch file will automatically detect the .mcs file
   - [Click here for the FPGA firmware update repo on GitHub](https://github.com/GameboxSystems/Gamebox-Product-Firmware-Updates)
 
 ## Hardware
@@ -35,3 +35,8 @@ _Version 0.3_ ---- _17 May 2023_
 - V0.3 - Removed Pi Pico support and adjust hierarchy accordingly
 - v0.2 - Pi Pico XVC support added with install guide 
 - v0.1 - Inital release with Xilinx platform cable support
+
+## Contributors
+
+- [v1605](https://github.com/v1605)
+  - Added .mcs autodetection to the firmware flashing batch script in the STEP 5 folder
