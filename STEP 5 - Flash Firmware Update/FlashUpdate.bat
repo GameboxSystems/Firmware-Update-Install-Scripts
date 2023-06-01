@@ -1,15 +1,14 @@
 @echo off
 setlocal enabledelayedexpansion
 
+pushd %~dp0
 set folder=%~dp0
 set latestFile=
 set latestTimestamp=0
 set impactFile="%~dp0write_mcs.impact"
-
-for /f "delims=" %%a in ('dir /b /a-d /o-d "%folder%\*.mcs" 2^>nul') do (
+for /f "delims=" %%a in ('dir /b /a-d /o-d "%folder%*.mcs" 2^>nul') do (
     set fileTimestamp=%%~ta
     set fileTimestamp=!fileTimestamp:~0,14!!fileTimestamp:~17,2!
-    
     if "!fileTimestamp!" gtr "!latestTimestamp!" (
         set latestTimestamp=!fileTimestamp!
         set latestFile=%%a
@@ -43,9 +42,9 @@ echo exit>> %impactFile%
 pause
 
 if exist C:\Xilinx\14.7\ISE_DS (
-	start "impact" C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\impact.exe -batch write_mcs.impact
+	start "impact" C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\impact.exe -batch %impactFile%
 )
 
 if exist C:\Xilinx\14.7\LabTools (
-	start "impact" C:\Xilinx\14.7\LabTools\LabTools\bin\nt64\impact.exe -batch write_mcs.impact
+	start "impact" C:\Xilinx\14.7\LabTools\LabTools\bin\nt64\impact.exe -batch %impactFile%
 )
