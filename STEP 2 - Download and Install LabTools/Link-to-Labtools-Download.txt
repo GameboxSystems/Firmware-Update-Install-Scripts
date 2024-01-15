@@ -1,1 +1,1 @@
-https://www.xilinx.com/member/forms/download/xef-ise.html?filename=Xilinx_LabTools_14.7_1015_1.tar
+https://account.amd.com/en/forms/downloads/xef.html?filename=Xilinx_LabTools_14.7_1015_1.tar
